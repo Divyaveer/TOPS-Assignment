@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-07-27T15:10:31.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="04PU3NhLdfIwwh-QpVPC" version="21.6.1" type="device">
+  <diagram name="Page-1" id="Vf7R7FWUHV2DlRxP9par">
+    <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-ptBvRwGtaQbs0BojsLI-1" value="&lt;h1&gt;Start&lt;/h1&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="-ptBvRwGtaQbs0BojsLI-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-ptBvRwGtaQbs0BojsLI-1" target="-ptBvRwGtaQbs0BojsLI-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ptBvRwGtaQbs0BojsLI-3" value="&lt;div&gt;&lt;h2&gt;Input Two Numbers&lt;/h2&gt;&lt;/div&gt;&lt;div&gt;&lt;h2&gt;Stored in A and B&lt;/h2&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="280" width="215" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-ptBvRwGtaQbs0BojsLI-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-ptBvRwGtaQbs0BojsLI-3" target="-ptBvRwGtaQbs0BojsLI-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="445" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ptBvRwGtaQbs0BojsLI-7" value="&lt;div&gt;&lt;h2&gt;Add A and B&lt;/h2&gt;&lt;/div&gt;&lt;div&gt;&lt;h2&gt;result stored in sum&lt;/h2&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="440" width="215" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-ptBvRwGtaQbs0BojsLI-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-ptBvRwGtaQbs0BojsLI-7" target="-ptBvRwGtaQbs0BojsLI-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="sourcePoint" />
+            <mxPoint x="445" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ptBvRwGtaQbs0BojsLI-10" value="&lt;h2&gt;Output: Print Sum&lt;/h2&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="610" width="215" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-ptBvRwGtaQbs0BojsLI-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-ptBvRwGtaQbs0BojsLI-10" target="-ptBvRwGtaQbs0BojsLI-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+            <mxPoint x="445" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ptBvRwGtaQbs0BojsLI-13" value="&lt;div&gt;&lt;h1&gt;END&lt;/h1&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="830" width="250" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

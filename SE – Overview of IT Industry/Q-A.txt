@@ -1,0 +1,59 @@
+							MODULE: 1
+						SE – Overview of IT Industry
+
+Q. What is Software? What is Software Engineering?
+
+A. Software is a collection of programs, data, and instructions that enable a 
+   computer to perform specific tasks or functions. Software engineering is the discipline of designing, developing
+   , and maintaining software using systematic methods and practices to ensure its reliability and quality.
+
+Q. Explain types of software.
+
+A. Software types include:
+
+   1. Application Software
+   2. System Software
+
+Q. What is SDLC? Explain each phase of SDLC.
+
+A. SDLC stands for Software Development Life Cycle. It is a structured approach used to develop high-quality software. The phases of SDLC are:
+
+    1. Requirements Gathering: Collecting and understanding user requirements to define the scope of the project.
+
+    2. Analysis: Analyzing gathered requirements to create a detailed system specification.
+
+    3. Design: Designing the software architecture, database structure, and user interfaces.
+
+    4. Implementation: Developing the actual code based on the design specifications.
+
+    5. Testing: Thoroughly testing the software to identify and fix any defects or issues.
+
+    6. Deployment: Releasing the software to users or the production environment.
+
+    7. Maintenance: Regularly updating and improving the software to meet changing needs and fix bugs.
+
+    The SDLC ensures a systematic and efficient development process, resulting in reliable and effective 
+    software solutions.
+
+Q. What is DFD? Create a DFD diagram on Flipkart.
+
+A. DFD stands for Data Flow Diagram. It is a graphical representation that shows 
+   how data moves through a system, depicting the flow of data and processes that manipulate it.
+
+   DIAGRAM : file DFD.drawio
+
+Q. What is Flow chart? Create a flowchart to make addition of two numbers.
+
+A. A flowchart is a graphical representation of a process or algorithm using various 
+   shapes to depict different steps or actions. It helps visualize the flow of 
+   operations and decision-making in a clear and easy-to-understand manner.
+
+   Diagram: Addition_of_Two_number.drawio
+
+Q. What is Use case Diagram? Create a use-case on bill payment on paytm.
+
+A. A use case diagram is a type of behavioral diagram in Unified 
+   Modeling Language (UML) that illustrates the interactions 
+   between users (actors) and a system to accomplish specific tasks or functionalities.
+
+   Diagrm: Billing_paytm.drawio
