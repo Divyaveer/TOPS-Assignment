@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Circle/Desktop/TOPS-Assignment/Module-3",
-      "program": "c:/Users/Circle/Desktop/TOPS-Assignment/Module-3/build/Debug/outDebug",
+      "cwd": "c:/Users/Circle/Desktop/TOPS-Assignment/Module-4",
+      "program": "c:/Users/Circle/Desktop/TOPS-Assignment/Module-4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

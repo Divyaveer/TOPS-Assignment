@@ -1,0 +1,69 @@
+Q. What is OOP? List OOP concepts.
+
+Ans. Object-Oriented Programming (OOP) is a programming paradigm that is centered around the concept of "objects," which are instances of classes. OOP aims to structure code in a way that models real-world entities and their interactions. It promotes the organization of code into reusable and modular units, making it easier to manage and maintain complex software systems. Here are some key OOP concepts:
+
+    Class: A blueprint or template for creating objects. It defines the attributes (properties) and methods (functions) that the objects of the class will have.
+
+    Object: An instance of a class. Objects encapsulate data (attributes) and behavior (methods) related to a specific entity.
+
+    Encapsulation: The concept of bundling data (attributes) and methods that operate on the data into a single unit (class). Encapsulation helps in hiding the internal implementation details and exposing only the necessary interfaces to the outside world.
+
+    Inheritance: A mechanism that allows a new class (subclass or derived class) to inherit properties and methods from an existing class (superclass or base class). It promotes code reusability and hierarchical relationships between classes.
+
+    Polymorphism: The ability of different classes to be treated as instances of a common superclass through a shared interface. Polymorphism allows objects of different classes to be used interchangeably, promoting flexibility and extensibility in code.
+
+    Abstraction: The process of simplifying complex reality by modeling classes based on essential characteristics. Abstraction involves focusing on relevant attributes and methods while ignoring unnecessary details.
+
+    Method Overloading: Defining multiple methods in the same class with the same name but different parameter lists. The appropriate method to execute is determined based on the number or types of arguments passed.
+
+    Method Overriding: Providing a specific implementation for a method in a subclass that already exists in its superclass. This allows a subclass to customize or extend the behavior of the inherited method.
+
+    Constructor: A special method used to initialize objects when they are created. Constructors are typically used to set initial values for the attributes of an object.
+
+    Destructor: A special method that is called when an object is no longer needed, often used to release resources or perform cleanup operations.
+
+    Access Modifiers: Keywords that control the visibility and accessibility of class members (attributes and methods). Common access modifiers include public, private, protected, and package-private.
+
+    Instance and Class Variables: Instance variables are attributes that are specific to each object instance, while class variables (also called static variables) are shared among all instances of a class.
+
+    Composition: The practice of building complex objects by combining simpler objects (typically through attributes). It allows for creating more complex structures while maintaining modularity.
+
+    Association: A relationship between classes where one class is connected to another class. Associations can be one-to-one, one-to-many, or many-to-many.
+
+    Aggregation and Composition: Special forms of association where one class (the whole) is composed of or contains other classes (the parts). Aggregation implies a weaker relationship, while composition implies a stronger relationship with exclusive ownership.
+
+Q. What is the difference between OOP and POP?
+
+Ans. OOP (Object-Oriented Programming) and POP (Procedural-Oriented Programming) are two different programming paradigms that offer distinct approaches to designing and structuring software. Here are the key differences between OOP and POP:
+
+    Focus of Paradigm:
+        OOP: Focuses on modeling real-world entities and their interactions using classes and objects. It emphasizes encapsulation, inheritance, and polymorphism to achieve modularity and code reusability.
+        POP: Focuses on breaking down the program into a sequence of procedures or functions. It primarily revolves around procedures that manipulate data and do not encapsulate data and behavior together like objects.
+
+    Unit of Organization:
+        OOP: Units of organization are classes and objects. Objects encapsulate both data and behavior, allowing for clear representation of entities and their associated actions.
+        POP: Units of organization are functions or procedures. Data and functions are separate, and functions operate on data passed to them.
+
+    Encapsulation:
+        OOP: Encapsulation is a fundamental principle, where data and methods that operate on the data are bundled together in a class. Access to data is controlled through methods, promoting data integrity.
+        POP: There is less emphasis on encapsulation, and data is often globally accessible, leading to potential data integrity and security issues.
+
+    Inheritance:
+        OOP: Inheritance allows one class to inherit properties and methods from another class, promoting code reuse and establishing hierarchical relationships.
+        POP: Inheritance is not a prominent feature in POP, as the focus is on procedural code execution rather than class hierarchies.
+
+    Polymorphism:
+        OOP: Polymorphism enables objects of different classes to be treated as instances of a common superclass through a shared interface. It promotes flexibility and extensibility in code.
+        POP: Polymorphism is not a central concept in POP, as the focus is more on executing procedures rather than interacting with objects.
+
+    Modularity and Reusability:
+        OOP: OOP encourages the creation of modular, reusable code through the use of classes and objects. Code is organized into self-contained units that can be easily reused.
+        POP: While some level of modularity can be achieved, the emphasis is generally not on creating reusable components. Functions are used to break down the program's logic, but they don't inherently encapsulate data.
+
+    Real-World Modeling:
+        OOP: OOP's design is inspired by real-world entities and their interactions. This makes OOP well-suited for modeling complex systems and representing real-world scenarios.
+        POP: POP is often used for simpler programs where data processing is the primary concern, and real-world modeling is not as central.
+
+    Examples of Languages:
+        OOP: Languages like Java, C++, Python, and C# are primarily object-oriented languages.
+        POP: Languages like C and Pascal are often used in procedural programming.
