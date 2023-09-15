@@ -1,0 +1,95 @@
+Q. What do you understand By Database
+A. Database is a place you can store data in different types of tables.
+	e.g., you have created a database named school, in which you have created tables for different classes
+		and sections where data should be stored.
+
+Q. What is Normalization ?
+A. data normalization is the process of organizing data in a database to reduce data redundancy 
+	and improve data integrity. This is typically done by breaking down large tables into smaller, 
+	related tables and ensuring that data is stored in a way that minimizes duplication.
+
+Q. What is Difference between DBMS and RDBMS?
+A. DBMS: DBMS is a general term for a system that manages databases. It doesn't specify the type of data 
+	structure used to store the data. In a DBMS, data can be organized in various ways, such as hierarchical,
+	network, or flat file structures. RDBMS: RDBMS specifically uses a relational model to organize data.
+	In an RDBMS, data is stored in tables with rows and columns, and relationships between tables are
+	established using keys. This tabular structure makes it easier to represent and query data.
+
+Q. What is MF Cod Rule of RDBMS Systems?
+A. Codd's rule in DBMS also known as Codd's 12 rules/commandments is a set of thirteen rules 
+	(numbered 0 to 12) that define a database to be a correct Relational Database Management System (RDBMS).
+	If a database follows Codd's 12 rules, it is called a True relational database management system.
+
+Q. What do you understand By Data Redundancy?
+A. Data redundancy occurs when the same piece of data is stored in multiple locations within a database or 
+	information system. This redundancy can result from various factors, such as data denormalization, poor 
+	database design, or the absence of proper data management practices. While some degree of redundancy can be 
+	intentional and even beneficial for improving data retrieval performance or facilitating specific operations, 
+	excessive or uncontrolled data redundancy can lead to several problems and challenges in database management.
+
+	One of the primary concerns with data redundancy is data inconsistency. When the same data exists in 
+	multiple places, it becomes difficult to ensure that all copies of that data remain consistent. 
+	If updates or modifications are made to one copy of the data but not propagated to the others, 
+	it can lead to inconsistencies and errors in the database. This lack of data integrity can undermine 
+	the reliability of the information stored in the system.
+
+Q. What is DDL Interpreter?
+A. A DDL (Data Definition Language) interpreter is a component of a database management system (DBMS) 
+	responsible for processing and executing DDL commands. DDL is a subset of SQL (Structured Query Language) 
+	used for defining and managing the structure and schema of a database. DDL commands include statements like 
+	CREATE TABLE, ALTER TABLE, and DROP TABLE, which are used to create, modify, and delete database objects 
+	such as tables, indexes, and views.
+
+Q. What is DML Compiler in SQL?
+A. In SQL (Structured Query Language), there is no specific entity referred to as a "DML Compiler." 
+	However, SQL includes two main categories of language elements and operations: Data Definition Language (DDL) 
+	and Data Manipulation Language (DML).
+
+Q. What is SQL Key Constraints writing an Example of SQL Key Constraints?
+A. SQL key constraints enforce rules on database columns:
+
+    Primary Key Constraint: Ensures uniqueness.
+
+	CREATE TABLE Students (
+	    StudentID INT PRIMARY KEY,
+	    FirstName VARCHAR(50),
+	    LastName VARCHAR(50)
+	);
+
+	Unique Constraint: Enforces uniqueness but not necessarily the primary key.
+
+	CREATE TABLE Employees (
+	    EmployeeID INT UNIQUE,
+	    FirstName VARCHAR(50),
+	    LastName VARCHAR(50)
+	);
+
+	Foreign Key Constraint: Enforces relationships between tables.
+
+	CREATE TABLE Orders (
+	    OrderID INT PRIMARY KEY,
+	    CustomerID INT,
+	    OrderDate DATE,
+	    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+	);
+
+Q. What is save Point? How to create a save Point write a Query?
+A. In SQL, a savepoint is a point within a transaction to which you can later roll back. Savepoints allow you to 
+	create named markers within a transaction so that you can later return to that specific point if needed, 
+	rather than rolling back the entire transaction. This can be useful in scenarios where you want to undo 
+	changes made in part of a transaction while preserving changes made earlier.
+
+Q. What is trigger and how to create a Trigger in SQL?
+A. In SQL, a trigger is a database object associated with a table that automatically activates in response to specific events, such as INSERT, UPDATE, DELETE, or other data modifications. Triggers are used to enforce business rules, perform data validation, maintain data integrity, or automate tasks when certain database actions occur. They are often written as stored procedures or scripts that are executed automatically by the database management system.
+
+	Here's the basic syntax for creating a trigger in SQL:
+
+	CREATE TRIGGER trigger_name
+	{BEFORE | AFTER} {INSERT | UPDATE | DELETE}
+	ON table_name
+	FOR EACH ROW
+	BEGIN
+	    -- Trigger logic here
+	END;
+
+
