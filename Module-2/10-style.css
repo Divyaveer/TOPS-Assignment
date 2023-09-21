@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.registerPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.registerPage .form{
+    margin: 10px;
+    background: #cdfffe;
+}
+
+.registerPage .header{
+    background: linear-gradient(to bottom, #cffefe, #c5ccff, #9bcafb, #6a98ca, #329bcd);
+    width: 100%;
+    text-align: center;
+    color: #9c2721;
+}
+
+.registerPage .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+    padding: 10px;
+}
+
+.registerPage .form .particulars{
+    width: 100%;
+}
+
+.registerPage .form .particulars .sectionName{
+    color: #f00;
+}
+
+.registerPage .form .particulars .sectionContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: #00f;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.registerPage .form .personalParticulars .sectionContent{
+    flex-direction: row;
+}
+
+.subSection{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.subSection input{
+    border: 1px solid #00f;
+    width: 150px;
+    padding: 4px;
+}
+
+.btn{
+    width: 70px;
+    color: #fff;
+    background: #2d9ad0;
+    border: #00f;
+}

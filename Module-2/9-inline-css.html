@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <script src="main.js" defer></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .clock::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 15px;
+            height: 15px;
+            background: #000;
+            border-radius: 50%;
+            z-index: 11;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body style="background: linear-gradient(to left, #0f0, #0ff); display: flex; align-items: center; justify-content: center; min-height: 100vh; overflow: hidden;">
+    <div class="clock" style="width: 400px; height: 400px; background: rgba(255,255,255,.8); border: 2px solid; border-radius: 50%; position: relative;">
+        <div class="hand hour-hand" data-hour-hand style="--rotation: 0; position: absolute; bottom: 50%; left: 50%; border: 1px solid #fff; border-top-left-radius: 10px; border-top-right-radius: 10px; transform-origin: bottom; z-index: 10; transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg)); width: 10px; height: 35%; background: #000;"></div>
+        <div class="hand minute-hand" data-minute-hand style="--rotation: 0; position: absolute; bottom: 50%; left: 50%; border: 1px solid #fff; border-top-left-radius: 10px; border-top-right-radius: 10px; transform-origin: bottom; z-index: 10; transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg)); width: 7px; height: 40%; background: #000;"></div>
+        <div class="hand second-hand" data-second-hand style="--rotation: 0; position: absolute; bottom: 50%; left: 50%; border: 1px solid #fff; border-top-left-radius: 10px; border-top-right-radius: 10px; transform-origin: bottom; z-index: 10; transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg)); width: 3px; height: 45%; background: #f00;"></div>
+        <div class="number number1" style="--rotation: 30deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">1</div></div>
+        <div class="number number2" style="--rotation: 60deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">2</div></div>
+        <div class="number number3" style="--rotation: 90deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">3</div></div>
+        <div class="number number4" style="--rotation: 120deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">4</div></div>
+        <div class="number number5" style="--rotation: 150deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">5</div></div>
+        <div class="number number6" style="--rotation: 180deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">6</div></div>
+        <div class="number number7" style="--rotation: 210deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">7</div></div>
+        <div class="number number8" style="--rotation: 240deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">8</div></div>
+        <div class="number number9" style="--rotation: 270deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">9</div></div>
+        <div class="number number10" style="--rotation: 300deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">10</div></div>
+        <div class="number number11" style="--rotation: 330deg; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">11</div></div>
+        <div class="number number12" style="--rotation: 0; width: 100%; height: 100%; font-size: 2rem; text-align: center; position: absolute; transform: rotate(var(--rotation));"><div style="transform: rotate(calc(var(--rotation) * -1));">12</div></div>
+    </div>
+</body>
+</html>
